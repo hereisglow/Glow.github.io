@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif; /* استخدام خط Poppins للنصوص الأساسية */
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5; /* خلفية وردية فاتحة */
+}
+
+header {
+    background: #ff80ab; /* لون وردي مشرق */
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    border-bottom: 5px solid #f48fb1; /* حدود وردية أفتح */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Cinzel', serif; /* استخدام خط Cinzel للعناوين */
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase; /* تحويل النصوص إلى حروف كبيرة */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+#contact-info {
+    background: #ffffff; /* لون خلفية أبيض */
+    color: #333;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#contact-info a {
+    color: #ff80ab; /* لون وردي مشرق */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+    color: #f48fb1; /* لون وردي أفتح */
+}
+
+#features {
+    background: #f8bbd0; /* لون وردي فاتح */
+    color: #333;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    max-width: 800px;
+}
+
+#features h2 {
+    margin-bottom: 1em;
+    color: #ff80ab; /* لون وردي مشرق */
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card {
+    background: #ffffff; /* لون خلفية أبيض */
+    color: #333;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #ff80ab; /* لون وردي مشرق */
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    border-top: 5px solid #f48fb1; /* حدود وردية أفتح */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
